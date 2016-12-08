@@ -19,5 +19,16 @@ int main(){
 	char c2[] = "难难";
 	cout<<c2<<endl;
 	cout<<sizeof(c2)<<endl;
+
+	int i = '我';
+	char c[] = "我";
+	cout << i << endl;
+	cout << c << endl;
+	cout << sizeof(c) << endl;
+
+	char c0;
+	cin >> c0;
+	cout << c0 << endl;
+
 	return 0;
 }
